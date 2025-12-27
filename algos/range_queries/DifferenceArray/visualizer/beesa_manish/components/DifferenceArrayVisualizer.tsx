@@ -215,7 +215,7 @@ function ArrayRow({ title, data, active, secondary, isDiff, highlightColor = "bo
         {data.map((val: number, i: number) => {
           const isActive = active === i;
           const isSecondary = secondary === i;
-
+ 
           return (
             <div key={i} className="flex flex-col items-center gap-2">
               <motion.div 
