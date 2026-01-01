@@ -130,7 +130,7 @@ export default function DifferenceArrayVisualizer() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div className="flex items-center gap-3">
           <Zap className="text-blue-400" size={24} />
-          <h1 className="text-2xl font-bold tracking-tight uppercase">Range Update Enforcer</h1>
+          <h1 className="text-2xl font-bold tracking-tight uppercase">Difference Array Visualizer</h1>
         </div>
         <div className="flex items-center gap-2 px-4 py-2 bg-slate-900 rounded-full border border-slate-800">
           <span className="text-xs font-mono text-emerald-400 font-bold uppercase tracking-wider">Updates: {updateCount}</span>
